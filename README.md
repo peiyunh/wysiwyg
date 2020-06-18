@@ -18,16 +18,16 @@ If you find our work useful, please consider citing:
 ```
 
 ## Setup
-Our code is based on [SECOND](https://github.com/traveller59/second.pytorch). Please refer to this [README](https://github.com/traveller59/second.pytorch/blob/master/README.md) and [NUSCENES-GUIDE](https://github.com/traveller59/second.pytorch/blob/master/NUSCENES-GUIDE.md) on how to set up a working environment for SECOND. 
+Our code is based on [SECOND](https://github.com/traveller59/second.pytorch). Please refer to this [README](https://github.com/traveller59/second.pytorch/blob/master/README.md) and [NUSCENES-GUIDE](https://github.com/traveller59/second.pytorch/blob/master/NUSCENES-GUIDE.md) on setting up a working environment for SECOND-based detection. 
+
+## Pre-trained models
 
 
 ## Training
-
 Run the following command to start training our model. 
 ```
 python script.py train_nuscenes --base_cfg="all.pp.mhead.vpn.config" --sample_factor=1 --epochs=20 --eval_epoch=2 --sweep_db=True --label=vp_pp_oa_ta_learn --resume=True
 ```
 
 ## Raycasting
-
-The code for raycasting is located under `wysiwyg/second/utils/mapping`. 
+The code for raycasting is located under `wysiwyg/second/utils/mapping`. The default setting for raycasting `drilling`. 
