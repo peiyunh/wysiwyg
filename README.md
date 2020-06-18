@@ -19,7 +19,9 @@ You can find our paper on [CVF Open Access](http://openaccess.thecvf.com/content
 The code is developed based on [SECOND](https://github.com/traveller59/second.pytorch), a well-known deep network based 3D object detector. Please refer to this [README](https://github.com/traveller59/second.pytorch/blob/master/README.md) and [NUSCENES-GUIDE](https://github.com/traveller59/second.pytorch/blob/master/NUSCENES-GUIDE.md) on how to set up a working environment for the SECOND detector. 
 
 ## Pre-trained models
-Download the pre-trained weights of the proposed model (early fusion) from [Google Drive](https://drive.google.com/file/d/1PeS6KCwi9JJlWG55MgEmNUHlgpkHeBHy/view?usp=sharing). The model configuration is located at [second/configs/nuscenes/all.pp.mhead.vpn.config](https://github.com/peiyunh/wysiwyg/blob/master/second/configs/nuscenes/all.pp.mhead.vpn.config). 
+Download the pre-trained weights of the proposed model (early fusion) from [Google Drive](https://drive.google.com/file/d/1PeS6KCwi9JJlWG55MgEmNUHlgpkHeBHy/view?usp=sharing). 
+
+The model configuration is located at [second/configs/nuscenes/all.pp.mhead.vpn.config](https://github.com/peiyunh/wysiwyg/blob/master/second/configs/nuscenes/all.pp.mhead.vpn.config). 
 
 ## Training
 Run the following command to start training our model. 
