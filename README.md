@@ -4,9 +4,7 @@
 By Peiyun Hu, Jason Ziglar, David Held, and Deva Ramanan
 
 ## Citing us
-Check out our paper [here](http://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_What_You_See_is_What_You_Get_Exploiting_Visibility_for_CVPR_2020_paper.pdf). 
-
-If you find our work useful, please consider citing:
+You can find our paper on [CVF Open Access](http://openaccess.thecvf.com/content_CVPR_2020/papers/Hu_What_You_See_is_What_You_Get_Exploiting_Visibility_for_CVPR_2020_paper.pdf). If you find our work useful, please consider citing:
 ```
 @inproceedings{hu20wysiwyg,
   title={What You See Is What You Get: Exploiting Visibility for 3d Object Detection},
@@ -30,4 +28,8 @@ python script.py train_nuscenes --base_cfg="all.pp.mhead.vpn.config" --sample_fa
 ```
 
 ## Raycasting
-The code for raycasting is located under [wysiwyg/second/utils/mapping](https://github.com/peiyunh/wysiwyg/blob/master/second/utils/mapping/). The default setting for raycasting `drilling`.
+You can find the code for raycasting under [second/utils/mapping](https://github.com/peiyunh/wysiwyg/blob/master/second/utils/mapping/). The default setting for raycasting `drilling`.
+
+We call raycasting functions in [second/data/preprocess.py](https://github.com/peiyunh/wysiwyg/blob/master/second/data/preprocess.py#L341-L359). If you are interested in integrating visibility into your own work, you can use it as an example of how to extract a visibility volume out of a LiDAR point cloud. 
+
+You will need to compile the code using CMake. 
