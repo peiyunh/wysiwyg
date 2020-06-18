@@ -8,8 +8,8 @@ Check out our paper [here](http://openaccess.thecvf.com/content_CVPR_2020/papers
 
 If you find our work useful, please consider citing:
 ```
-@inproceedings{hu2020you,
-  title={What you see is what you get: Exploiting visibility for 3d object detection},
+@inproceedings{hu20wysiwyg,
+  title={What You See Is What You Get: Exploiting Visibility for 3d Object Detection},
   author={Hu, Peiyun and Ziglar, Jason and Held, David and Ramanan, Deva},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={11001--11009},
