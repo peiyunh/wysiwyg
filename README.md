@@ -16,7 +16,9 @@ You can find our paper on [CVF Open Access](http://openaccess.thecvf.com/content
 ```
 
 ## Setup
-The code is developed based on [SECOND](https://github.com/traveller59/second.pytorch), a well-known deep network based 3D object detector. Please refer to this [README](https://github.com/traveller59/second.pytorch/blob/master/README.md) and [NUSCENES-GUIDE](https://github.com/traveller59/second.pytorch/blob/master/NUSCENES-GUIDE.md) on how to set up a working environment for the SECOND detector. 
+The code is developed based on [SECOND](https://github.com/traveller59/second.pytorch), a well-known deep network based 3D object detector. Please refer to this [README](https://github.com/traveller59/second.pytorch/blob/master/README.md) and [NUSCENES-GUIDE](https://github.com/traveller59/second.pytorch/blob/master/NUSCENES-GUIDE.md) on how to set up a working environment for the SECOND detector.
+
+Perhaps most importantly, you have to install [spconv](https://github.com/traveller59/spconv). 
 
 ## Pre-trained models
 Download the pre-trained weights of the proposed model (early fusion) from [Google Drive](https://drive.google.com/file/d/1PeS6KCwi9JJlWG55MgEmNUHlgpkHeBHy/view?usp=sharing). 
